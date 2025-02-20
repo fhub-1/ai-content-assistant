@@ -108,7 +108,7 @@ export default function SubscriptionStatsCard({
         <div className="text-center space-y-6">
           <div className="group bg-[#1C1C27]/50 border border-[#2D2D3D] rounded-xl p-6 transition-all duration-300 hover:scale-[1.02]">
             <p className="text-lg text-[#F8F8F8] mb-2">
-              Did you know? <span className="text-[#6366F1] animate-pulse">{nonSubscribedPercentage}%</span> of viewers haven't subscribed yet!
+              Did you know? <span className="text-[#6366F1] animate-pulse">{nonSubscribedPercentage}%</span> of viewers haven&apos;t subscribed yet!
             </p>
             <p className="text-[#A1A1AA]">
               Support the stream and get access to exclusive emotes, badges, and ad-free viewing.
