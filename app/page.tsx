@@ -4,7 +4,6 @@ import Hero from "./components/home/Hero";
 import SocialProof from "./components/home/SocialProof";
 import Footer from "./components/layout/Footer";
 import Navbar from "./components/layout/Navbar";
-import SubscriptionStatsCard from "./components/stream/subscription-stats-card";
 
 export default function Home() {
   return (

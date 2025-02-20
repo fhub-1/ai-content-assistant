@@ -34,7 +34,7 @@ function Testimonial({ content, author, role, image }: TestimonialProps) {
       
       {/* Content */}
       <div className="space-y-6">
-        <p className="text-zinc-400 text-lg leading-relaxed">"{content}"</p>
+        <p className="text-zinc-400 text-lg leading-relaxed">&ldquo;{content}&rdquo;</p>
         <div className="flex items-center space-x-4">
           <div className="relative w-12 h-12 rounded-full overflow-hidden">
             <Image

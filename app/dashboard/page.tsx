@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function DashboardPage() {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
@@ -6,7 +8,7 @@ export default function DashboardPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16 items-center">
             <div className="flex-shrink-0">
-              <a href="/" className="text-xl font-bold text-gray-900 dark:text-white">AI Content Assistant</a>
+              <Link href="/" className="text-xl font-bold text-gray-900 dark:text-white">AI Content Assistant</Link>
             </div>
           </div>
         </div>
@@ -76,7 +78,7 @@ export default function DashboardPage() {
             </button>
             <button className="text-left p-4 rounded-lg border border-gray-200 dark:border-gray-700 hover:border-blue-500 transition-colors">
               <h3 className="font-semibold text-gray-900 dark:text-white">Social Media Bundle</h3>
-              <p className="text-sm text-gray-600 dark:text-gray-300 mt-1">Create a week's worth of social media posts</p>
+              <p className="text-sm text-gray-600 dark:text-gray-300 mt-1">Create a week&apos;s worth of social media posts</p>
             </button>
             <button className="text-left p-4 rounded-lg border border-gray-200 dark:border-gray-700 hover:border-blue-500 transition-colors">
               <h3 className="font-semibold text-gray-900 dark:text-white">Email Sequence</h3>
