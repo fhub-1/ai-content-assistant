@@ -8,6 +8,17 @@ export default function Hero() {
       
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
         <div className="text-center">
+          {/* Product Hunt Launch Banner */}
+          <a 
+            href="https://www.producthunt.com/posts/ai-content-assistant"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 mb-6 hover:bg-orange-500/20 transition-colors"
+          >
+            <img src="/producthunt.svg" alt="Product Hunt" className="w-5 h-5" />
+            <span className="text-sm font-medium">We're live on Product Hunt! 🚀</span>
+          </a>
+
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-950/50 border border-indigo-800/50 text-indigo-400 mb-6">
             <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
               <path d="M13.4,21.76a1,1,0,0,1-1.12.26,1,1,0,0,1-.68-.94V16.67H10.25a1,1,0,0,1-.89-.54,1,1,0,0,1,.08-1l6.72-8.73a1,1,0,0,1,1.12-.26,1,1,0,0,1,.68.94v4.41h1.35a1,1,0,0,1,.89.54,1,1,0,0,1-.08,1Z"/>
