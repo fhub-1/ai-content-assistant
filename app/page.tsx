@@ -6,7 +6,7 @@ import Pricing from "./components/home/Pricing";
 import FAQ from "./components/home/FAQ";
 import Footer from "./components/layout/Footer";
 import Navbar from "./components/layout/Navbar";
-import SubscriptionStatsCard from "./components/stream/subscription-stats-card";
+// import SubscriptionStatsCard from "./components/stream/subscription-stats-card";
 
 export default function Home() {
   return (
@@ -18,8 +18,8 @@ export default function Home() {
       <Pricing />
       <FAQ />
       <CTA />
-      <Footer />
-      <SubscriptionStatsCard />
+      <Footer /> 
+      {/* <SubscriptionStatsCard /> */}
     </div>
   );
 }
