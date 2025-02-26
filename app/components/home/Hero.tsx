@@ -1,4 +1,5 @@
-import Link from 'next/link';
+import Link from "next/link";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -15,17 +16,23 @@ export default function Hero() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 mb-6 hover:bg-orange-500/20 transition-colors"
           >
-            <img src="/producthunt.svg" alt="Product Hunt" className="w-5 h-5" />
-            <span className="text-sm font-medium">We're live on Product Hunt! 🚀</span>
+            <Image 
+              src="/producthunt.svg" 
+              alt="Product Hunt" 
+              width={20} 
+              height={20}
+              className="w-5 h-5"
+            />
+            <span className="text-sm font-medium">We&apos;re live on Product Hunt! 🚀</span>
           </a>
 
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-950/50 border border-indigo-800/50 text-indigo-400 mb-6">
+          {/* <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-950/50 border border-indigo-800/50 text-indigo-400 mb-6">
             <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
               <path d="M13.4,21.76a1,1,0,0,1-1.12.26,1,1,0,0,1-.68-.94V16.67H10.25a1,1,0,0,1-.89-.54,1,1,0,0,1,.08-1l6.72-8.73a1,1,0,0,1,1.12-.26,1,1,0,0,1,.68.94v4.41h1.35a1,1,0,0,1,.89.54,1,1,0,0,1-.08,1Z"/>
               <path d="M3.89,16.13h4.14a1,1,0,0,1,.89.54,1,1,0,0,1-.08,1L2.11,26.4a1,1,0,0,1-1.12.26A1,1,0,0,1,.31,25.72V17.13H3A1,1,0,0,0,3.89,16.13Z"/>
             </svg>
             <span className="text-sm font-medium">AI-Powered Content Creation</span>
-          </div>
+          </div> */}
           <h1 className="text-5xl md:text-7xl font-bold mb-8">
             Your AI Content Partner for
             <br />

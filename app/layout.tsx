@@ -8,29 +8,25 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://ai-content-assistant.vercel.app'),
   title: "AI Content Assistant - Your AI Partner for YouTube & Podcasts",
   description: "Transform your content creation with AI-powered scripts, descriptions, and titles. The perfect tool for YouTubers and Podcasters to create engaging content.",
   openGraph: {
     title: "AI Content Assistant - Your AI Partner for YouTube & Podcasts",
     description: "Transform your content creation with AI-powered scripts, descriptions, and titles. The perfect tool for YouTubers and Podcasters to create engaging content.",
-    url: "https://ai-content-assistant.vercel.app",
+    url: '/',
     siteName: "AI Content Assistant",
-    images: [
-      {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "AI Content Assistant Preview"
-      }
-    ],
-    type: "website",
+    locale: 'en_US',
+    type: 'website',
   },
   twitter: {
-    card: "summary_large_image",
+    card: 'summary_large_image',
     title: "AI Content Assistant - Your AI Partner for YouTube & Podcasts",
     description: "Transform your content creation with AI-powered scripts, descriptions, and titles. The perfect tool for YouTubers and Podcasters to create engaging content.",
-    images: ["/og-image.png"],
-  }
+  },
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({
@@ -41,7 +37,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
         <meta name="product-hunt-domain-verify" content="ph_YOUR_DOMAIN_VERIFICATION" />
