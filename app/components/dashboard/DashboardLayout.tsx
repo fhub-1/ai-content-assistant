@@ -4,7 +4,6 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { 
-  Layout, 
   Home, 
   FileText, 
   History, 
@@ -20,7 +19,7 @@ import {
 type NavItem = {
   name: string;
   href: string;
-  icon: React.ComponentType<any>;
+  icon: React.ComponentType<{ size?: number; className?: string }>;
 };
 
 const navigation: NavItem[] = [
