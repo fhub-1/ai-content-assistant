@@ -1,6 +1,8 @@
 import Link from 'next/link';
 
 export default function Navbar() {
+  // import sing in
+   
   return (
     <nav className="fixed w-full bg-zinc-950/80 backdrop-blur-sm z-50 border-b border-zinc-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -11,7 +13,7 @@ export default function Navbar() {
             </h1>
           </div>
           <div className="flex items-center gap-4">
-            <Link href="/dashboard" className="bg-indigo-600 hover:bg-indigo-500 text-white px-6 py-2 rounded-full transition-all transform hover:scale-105">
+            <Link href="/" className="bg-indigo-600 hover:bg-indigo-500 text-white px-6 py-2 rounded-full transition-all transform hover:scale-105">
               Start Creating
             </Link>
           </div>
